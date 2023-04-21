@@ -100,9 +100,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Online Code Compiler</h1>
+      <h1>Basic Code Compiler</h1>
       <div>
-        <label>Language:</label>
+        <label>Select Language:</label>
         <select
           value={language}
           onChange={(e) => {
@@ -134,7 +134,7 @@ function App() {
       <br />
       <button onClick={handleSubmit}>Submit</button>
       <p>{status}</p>
-      {/* <p>{jobId ? `Job ID: ${jobId}` : ""}</p> */}
+      <p>{jobId ? `Job ID: ${jobId}` : ""}</p>
       <p>{output}</p>
     </div>
   );
