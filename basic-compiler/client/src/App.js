@@ -134,8 +134,7 @@ function App() {
       <br />
       <button onClick={handleSubmit}>Submit</button>
       <p>{status}</p>
-      <p>{jobId ? `Job ID: ${jobId}` : ""}</p>
-      <p>{renderTimeDetails()}</p>
+      {/* <p>{jobId ? `Job ID: ${jobId}` : ""}</p> */}
       <p>{output}</p>
     </div>
   );
